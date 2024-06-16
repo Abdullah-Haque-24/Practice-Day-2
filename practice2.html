@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="practice2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <img src="logo.png" alt="Bootstrap" class="navbar-brand">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <i class="fa-solid fa-magnifying-glass mx-3 mt-2"></i>
+                        <button class="btn bg-danger text-white" type="submit">
+                            Get Ticket
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner container">
+                <div class="carousel-item active">
+                    <img src="Rectangle.png" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <!-- <img src="bg.jpg" class="d-block w-100" alt="..."> -->
+                </div>
+                <div class="carousel-item">
+                    <!-- <img src="read.jpg" class="d-block w-100" alt="..."> -->
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <hr class="container">
+        <div class="subtitle">
+            <p class="subtitleX">Professional Hockey Club</p>
+            <p class="subtitleY">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fugit unde quos
+            </p>
+            <p class="subtitleY">Reiciendis fugit unde quos alias laboriosam corrupti </p>
+        </div>
+        <hr class="container">
+        <div class="row d-flex justify-content-center mt-100">
+            <div class="col-md-7">
+                <div class="progress blue">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">90%</div>
+                </div>
+                <div class="progress yellow">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">37%</div>
+                </div>
+                <div class="progress blue">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">90%</div>
+                </div>
+                <div class="progress yellow">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">80%</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex justify-content-center fw-4 gap-5">
+            <p style="padding-right: 1.5rem;">Prayer Facility</p>
+            <p style="padding-right: 1.5rem;">Experienced Coach</p>
+            <p style="padding-right: 2rem;">Senior Player</p>
+            <p style="padding-right: 1.5rem;">Training Ground</p>
+        </div>
+        <hr class="container">
+        <div class="subtitle">
+            <p class="subtitleX">Progress Sections</p>
+            <p class="subtitleY">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fugit unde quos
+            </p>
+            <p class="subtitleY">Reiciendis fugit unde quos alias laboriosam corrupti </p>
+        </div>
+        <hr class="container">
+        <div class="d-flex container gap-2 mb-2">
+            <div>
+                <div class="card">
+                    <img src="Rectangle 11.png" class="card-img" alt="...">
+                    <div class="card-img-overlay mt-5 text-white p-5">
+                        <h5 class="card-title">Junior Program</h5>
+                        <p>This is a wider card with supporting text below as a natural lead-in to
+                            additional content. lead-in to additional content. </p>
+                        <p >This content is a little bit longer.This content is a little bit longer.
+                        </p>
+                        <button class="btn bg-danger text-white" type="submit">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img src="Rectangle 4.png" class="card-img" alt="...">
+                    <div class="card-img-overlay mt-5 text-white p-5">
+                        <h5 class="card-title">Teenager Program</h5>
+                        <p>This is a wider card with supporting text below as a natural lead-in to
+                            additional content. lead-in to additional content. </p>
+                        <p>This content is a little bit longer.This content is a little bit longer.
+                        </p>
+                        <button class="btn bg-danger text-white" type="submit">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card container">
+            <img src="card3.png" class="card-img " alt="...">
+            <div class="card-img-overlay mt-5 text-white p-5">
+                <h5 class="card-title">Professional Program</h5>
+                <p class="card-text pro-sec">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. lead-in to additional content. </p>
+                <p class="card-text pro-sec">This content is a little bit longer.This content is a little bit longer.
+                </p>
+                <button class="btn bg-danger text-white" type="submit">Register Now!</button>
+            </div>
+        </div>
+        <hr class="container">
+        <div class="subtitle">
+            <p class="subtitleX">Our Products</p>
+            <p class="subtitleY">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fugit unde quos
+            </p>
+            <p class="subtitleY">Reiciendis fugit unde quos alias laboriosam corrupti </p>
+        </div>
+        <hr class="container">
+        <div class="d-flex container">
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="jacket.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="d-flex gap-3">
+                                <p><i class="fa-regular fa-star"></i> 5.0</p>
+                                <p><i class="fa-solid fa-eye"></i> 20</p>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                            <h5 class="card-title">World Cup Jacket</h5>
+                            <p class="card-text"><small class="text-body-secondary">This is a wider card with supporting text below as a natural lead-in to
+                                additional</small></p>
+                            <div class="d-flex gap-3">
+                                <p class="text-danger fw-bold">Price - $22.00</p>
+                                <p class="card-text "><small class="text-body-secondary"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee: Free</small></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="cup.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="d-flex gap-3">
+                                <p><i class="fa-regular fa-star"></i> 5.0</p>
+                                <p><i class="fa-solid fa-eye"></i> 20</p>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                            <h5 class="card-title">World Cup</h5>
+                            <p class="card-text"><small class="text-body-secondary">This is a wider card with supporting text below as a natural lead-in to
+                                additional</small></p>
+                            <div class="d-flex gap-3">
+                                <p class="text-danger fw-bold">Price - $22.00</p>
+                                <p class="card-text "><small class="text-body-secondary"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee: Free</small></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex container">
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="cap.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="d-flex gap-3">
+                                <p><i class="fa-regular fa-star"></i> 4.0</p>
+                                <p><i class="fa-solid fa-eye"></i> 2650</p>
+                                <p><i class="fa-regular fa-heart"></i> 26900</p>
+                            </div>
+                            <h5 class="card-title">Cap</h5>
+                            <p class="card-text"><small class="text-body-secondary">This is a wider card with supporting text below as a natural lead-in to
+                                additional</small></p>
+                            <div class="d-flex gap-3">
+                                <p class="text-danger fw-bold">Price - $5.00</p>
+                                <p class="card-text "><small class="text-body-secondary"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee: Free</small></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="shit.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="d-flex gap-3">
+                                <p><i class="fa-regular fa-star"></i> 4.0</p>
+                                <p><i class="fa-solid fa-eye"></i> 1096</p>
+                                <p><i class="fa-regular fa-heart"></i> 654</p>
+                            </div>
+                            <h5 class="card-title">T-Shirt</h5>
+                            <p class="card-text"><small class="text-body-secondary">This is a wider card with supporting text below as a natural lead-in to
+                                additional</small></p>
+                            <div class="d-flex gap-3">
+                                <p class="text-danger fw-bold">Price - $10.00</p>
+                                <p class="card-text "><small class="text-body-secondary"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee: Free</small></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex container">
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="cup.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="d-flex gap-3">
+                                <p><i class="fa-regular fa-star"></i> 5.0</p>
+                                <p><i class="fa-solid fa-eye"></i> 20</p>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                            <h5 class="card-title">World Cup Jacket</h5>
+                            <p class="card-text"><small class="text-body-secondary">This is a wider card with supporting text below as a natural lead-in to
+                                additional</small></p>
+                            <div class="d-flex gap-3">
+                                <p class="text-danger fw-bold">Price - $22.00</p>
+                                <p class="card-text "><small class="text-body-secondary"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee: Free</small></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="ball.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="d-flex gap-3">
+                                <p><i class="fa-regular fa-star"></i> 4.5</p>
+                                <p><i class="fa-solid fa-eye"></i> 290</p>
+                                <p><i class="fa-regular fa-heart"></i> 880</p>
+                            </div>
+                            <h5 class="card-title">Football</h5>
+                            <p class="card-text"><small class="text-body-secondary">This is a wider card with supporting text below as a natural lead-in to
+                                additional</small></p>
+                            <div class="d-flex gap-3">
+                                <p class="text-danger fw-bold">Price - $29.00</p>
+                                <p class="card-text "><small class="text-body-secondary"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee: Free</small></p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="container">
+        <div class="subtitle">
+            <p class="subtitleX">Clients Question</p>
+            <p class="subtitleY">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fugit unde quos
+            </p>
+            <p class="subtitleY">Reiciendis fugit unde quos alias laboriosam corrupti </p>
+        </div>
+        <hr class="container">
+        <section class="d-flex container ">
+            <div class="w-50">
+                <img src="question.png"  alt="...">
+            </div>
+            <div class="accordion w-50" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Our Equipment
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Hockey Training
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Private Lessons
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Ski Touring
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Booking
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Pricings
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="container">
+        <div class="subtitle">
+            <p class="subtitleX">Get in Touch</p>
+            <p class="subtitleY">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fugit unde
+                quos
+            </p>
+            <p class="subtitleY">Reiciendis fugit unde quos alias laboriosam corrupti </p>
+        </div>
+        <hr class="container">
+        <section class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="border border-1 p-4 rounded-4">
+                        <div class="bg-primary bg-opacity-10 p-4 mb-2 rounded-4">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>Phone Number:</p>
+                            <p>654546412686</p>
+                        </div>
+                        <div class="bg-info bg-opacity-10 p-4 mb-2 rounded-4">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>Email:</p>
+                            <p>xyz@gmail.com</p>
+                        </div>
+                        <div class="bg-danger bg-opacity-10 p-4 rounded-4">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Location:</p>
+                            <p>Xyz, Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="border border-1 p-4 rounded-4">
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Name</label>
+                                <input type="email" class="form-control" id="inputEmail4"
+                                    placeholder="Enter your name...">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4"
+                                    placeholder="Enter your email...">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Subject</label>
+                                <input type="email" class="form-control" id="inputEmail4"
+                                    placeholder="Enter your name...">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Phone Number</label>
+                                <input type="email" class="form-control" id="inputEmail4"
+                                    placeholder="Enter your email...">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputAddress" class="form-label">Message</label>
+                                <textarea class="form-control" id="messageBox" rows="8"
+                                    placeholder="Write your message..."></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-danger w-100">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <section class="bg-secondary bg-opacity-10 p-4 mt-5 mb-5 border-1 rounded-4 d-flex justify-content-center container">
+                <div class="text-dark text-center centered-div w-100">
+                    <p class="fs-2 fw-bold">Social Media</p>
+                    <div>
+                        <a href="#" class="btn btn-dark me-2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-dark me-2" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="btn btn-dark me-2" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-dark me-2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-dark text-white pt-5 pb-5">
+                <div class="d-flex justify-content-center container p-4">
+                    <div class="w-25 ">
+                        <h3>Get in Touch</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <div class="d-flex gap-2">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>xyz@gmail.com</p>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>654546412686</p>
+                        </div>
+                    </div>
+                    <div class="w-25">
+                        <h3>Company</h3>
+                        <p>About us</p>
+                        <p>Leadership</p>
+                        <p>Careers</p>
+                        <p>News & Article</p>
+                        <p>Legal Notice</p>
+                    </div>
+                    <div class="w-25">
+                        <h3>Support</h3>
+                        <p>About us</p>
+                        <p>Leadership</p>
+                        <p>Careers</p>
+                        <p>News & Article</p>
+                        <p>Legal Notice</p>
+                    </div>
+                    <div class="w-25">
+                        <h3>Services</h3>
+                        <p>About us</p>
+                        <p>Leadership</p>
+                        <p>Careers</p>
+                        <p>News & Article</p>
+                        <p>Legal Notice</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </main>
+    <!-- JS -->
+    <div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
